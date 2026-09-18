@@ -1,0 +1,402 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EL ÁNGEL - Publicidad sin límites. Gigantografías, banners, afiches, bordados, estampados, letreros luminosos y stickers en Satipo.">
+  <title>EL ÁNGEL | Publicidad sin Límites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <!-- MENÚ FIJO -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#inicio" class="brand" aria-label="EL ÁNGEL - Inicio">
+        <img src="img/Logo.png" alt="EL ÁNGEL - Publicidad sin Límites">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="mainNav">
+        <a href="#inicio" class="nav-link active">Inicio</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+      </nav>
+    </div>
+  </header>
+  
+
+  <main>
+    <!-- INICIO / SLIDER -->
+    <section class="hero" id="inicio">
+      <div class="slider" id="slider">
+        <article class="slide active" style="background-image:url('img/BANNER1.png')">
+          <div class="slide-overlay"></div>
+          <div class="hero-content container">
+            <span class="eyebrow">EL ÁNGEL • PUBLICIDAD</span>
+            <h1>Publicidad<br><span>sin límites.</span></h1>
+            <p>Convertimos tus ideas en piezas que llaman la atención y hacen crecer tu marca.</p>
+            <div class="hero-buttons">
+              <a href="#servicios" class="btn btn-gold">Ver servicios</a>
+              <a href="https://wa.me/51949866685?text=Hola%20EL%20%C3%81NGEL%2C%20quiero%20cotizar%20un%20trabajo." class="btn btn-outline" target="_blank" rel="noopener">Cotizar por WhatsApp</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" style="background-image:url('img/BANNER2.png')">
+          <div class="slide-overlay"></div>
+          <div class="hero-content container">
+            <span class="eyebrow">IMPRESIÓN • DISEÑO • PRODUCCIÓN</span>
+            <h2>Haz que tu<br><span>marca destaque.</span></h2>
+            <p>Soluciones publicitarias pensadas para negocios, eventos y emprendimientos.</p>
+            <div class="hero-buttons">
+              <a href="#galeria" class="btn btn-gold">Ver trabajos</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" style="background-image:url('img/BANNER3.png')">
+          <div class="slide-overlay"></div>
+          <div class="hero-content container">
+            <span class="eyebrow">ESTAMPADOS • BORDADOS</span>
+            <h2>Tu identidad<br><span>en cada detalle.</span></h2>
+            <p>Personalizamos prendas y productos para que tu marca se vea profesional.</p>
+            <div class="hero-buttons">
+              <a href="#contacto" class="btn btn-gold">Solicitar información</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" style="background-image:url('img/BANNER4.jpg')">
+          <div class="slide-overlay"></div>
+          <div class="hero-content container">
+            <span class="eyebrow">LETREROS • PUBLICIDAD EXTERIOR</span>
+            <h2>Hazte notar<br><span>desde lejos.</span></h2>
+            <p>Letreros y soluciones visuales para darle presencia a tu negocio.</p>
+            <div class="hero-buttons">
+              <a href="#servicios" class="btn btn-gold">Conocer servicios</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" style="background-image:url('img/BANNER5.jpg')">
+          <div class="slide-overlay"></div>
+          <div class="hero-content container">
+            <span class="eyebrow">CREATIVIDAD • CALIDAD • IMPACTO</span>
+            <h2>Diseñamos.<br><span>Imprimimos. Impactamos.</span></h2>
+            <p>Todo lo que necesitas para comunicar tu negocio con una imagen profesional.</p>
+            <div class="hero-buttons">
+              <a href="#contacto" class="btn btn-gold">Contáctanos</a>
+            </div>
+          </div>
+        </article>
+
+        <button class="slider-arrow prev" id="prevSlide" aria-label="Imagen anterior">‹</button>
+        <button class="slider-arrow next" id="nextSlide" aria-label="Siguiente imagen">›</button>
+
+        <div class="slider-dots" id="sliderDots" aria-label="Controles del slider">
+          <button class="dot active" aria-label="Ir a imagen 1"></button>
+          <button class="dot" aria-label="Ir a imagen 2"></button>
+          <button class="dot" aria-label="Ir a imagen 3"></button>
+          <button class="dot" aria-label="Ir a imagen 4"></button>
+          <button class="dot" aria-label="Ir a imagen 5"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRESENTACIÓN -->
+    <section class="intro section-light">
+      <div class="container intro-grid">
+        <div>
+          <span class="section-tag">EL ÁNGEL</span>
+          <h2>Ideas que se convierten en <span>impacto.</span></h2>
+        </div>
+        <div>
+          <p>Somos una empresa dedicada a la producción de soluciones gráficas y publicitarias. Creamos piezas visuales que ayudan a que negocios, marcas y eventos se vean profesionales y memorables.</p>
+          <a href="#nosotros" class="text-link">Conoce más sobre nosotros <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="services section-dark" id="servicios">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="section-tag gold">NUESTROS SERVICIOS</span>
+          <h2>Soluciones para <span>hacerte visible.</span></h2>
+          <p>Diseño, producción e impresión para llevar tu comunicación al siguiente nivel.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-number">01</div>
+            <div class="service-icon">▱</div>
+            <h3>Banners</h3>
+            <p>Gigantografías y banners personalizados para campañas, eventos y negocios.</p>
+            <a href="#contacto">Cotizar <span>→</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-number">02</div>
+            <div class="service-icon">▤</div>
+            <h3>Afiches</h3>
+            <p>Diseños de alto impacto para promociones, eventos y comunicación comercial.</p>
+            <a href="#contacto">Cotizar <span>→</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-number">03</div>
+            <div class="service-icon">✦</div>
+            <h3>Bordados</h3>
+            <p>Personalización de prendas con acabados resistentes y presentación profesional.</p>
+            <a href="#contacto">Cotizar <span>→</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-number">04</div>
+            <div class="service-icon">▣</div>
+            <h3>Estampados</h3>
+            <p>Diseños personalizados para polos y prendas que representan tu identidad.</p>
+            <a href="#contacto">Cotizar <span>→</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-number">05</div>
+            <div class="service-icon">☼</div>
+            <h3>Letreros luminosos</h3>
+            <p>Soluciones visuales para destacar tu negocio de día y de noche.</p>
+            <a href="#contacto">Cotizar <span>→</span></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-number">06</div>
+            <div class="service-icon">◇</div>
+            <h3>Stickers</h3>
+            <p>Stickers personalizados para productos, packaging, vehículos y promociones.</p>
+            <a href="#contacto">Cotizar <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="about section-light" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-image">
+          <div class="about-image-main"></div>
+          <div class="about-badge">
+            <strong>EL</strong>
+            <span>ÁNGEL</span>
+            <small>PUBLICIDAD SIN LÍMITES</small>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-tag">SOBRE NOSOTROS</span>
+          <h2>Tu proyecto merece una imagen que <span>impacte.</span></h2>
+          <p>En EL ÁNGEL trabajamos para transformar ideas en soluciones gráficas atractivas y funcionales. Nos enfocamos en cuidar cada detalle, desde el diseño hasta el acabado final.</p>
+          <div class="about-points">
+            <div><span>01</span><p><strong>Creatividad</strong><br>Diseños pensados para destacar.</p></div>
+            <div><span>02</span><p><strong>Calidad</strong><br>Acabados que representan tu marca.</p></div>
+            <div><span>03</span><p><strong>Compromiso</strong><br>Atención cercana durante tu proyecto.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="gallery-section section-dark" id="galeria">
+      <div class="container">
+        <div class="section-heading centered">
+          <span class="section-tag gold">NUESTROS TRABAJOS</span>
+          <h2>Una muestra de nuestro <span>trabajo.</span></h2>
+          <p>La galería está organizada en dos columnas con movimientos opuestos.</p>
+        </div>
+      </div>
+
+      <div class="gallery-window">
+        <div class="gallery-column gallery-right">
+          <div class="gallery-track">
+            <figure><img src="img/ESTAMPADOS 1.png" alt="Trabajo publicitario 1"></figure>
+            <figure><img src="img/LETRERO LUMINOSO 1.jpg" alt="Trabajo publicitario 2"></figure>
+            <figure><img src="img/LONA1.jpg" alt="Trabajo publicitario 3"></figure>
+            <figure><img src="img/ESTAMPADOS 2.png" alt="Trabajo publicitario 4"></figure>
+            <figure><img src="img/CAMISETAS1.jpg" alt="Trabajo publicitario 5"></figure>
+            <figure><img src="img/STICKER1.jpg" alt="Trabajo publicitario 6"></figure>
+            <figure><img src="img/AFICHE1.jpg" alt="Trabajo publicitario 7"></figure>
+          </div>
+        </div>
+
+        <div class="gallery-column gallery-left">
+          <div class="gallery-track">
+            <figure><img src="img/AFICHE2.jpg" alt="Trabajo publicitario 8"></figure>
+            <figure><img src="img/STICKER2.jpg" alt="Trabajo publicitario 9"></figure>
+            <figure><img src="img/CAMISETAS2.jpg" alt="Trabajo publicitario 10"></figure>
+            <figure><img src="img/LONA2.jpg" alt="Trabajo publicitario 11"></figure>
+            <figure><img src="img/LETRERO LUMINOSO 2.jpg" alt="Trabajo publicitario 12"></figure>
+            <figure><img src="img/BORDADO 2.png" alt="Trabajo publicitario 13"></figure>
+            <figure><img src="img/ESTAMPADO 3.jpg" alt="Trabajo publicitario 14"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta-inner">
+        <div>
+          <span class="section-tag">¿TIENES UN PROYECTO?</span>
+          <h2>Hagamos que tu idea <span>se vea.</span></h2>
+        </div>
+        <a href="#contacto" class="btn btn-dark">Solicitar cotización</a>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact section-light" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-form-wrap">
+          <span class="section-tag">CONTÁCTANOS</span>
+          <h2>Cuéntanos qué <span>necesitas.</span></h2>
+          <p>Completa el formulario y nos pondremos en contacto contigo.</p>
+
+          <form id="contactForm" class="contact-form">
+            <div class="form-row">
+              <label>
+                Nombre
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+              </label>
+              <label>
+                Teléfono
+                <input type="tel" name="telefono" placeholder="Tu teléfono" required>
+              </label>
+            </div>
+
+            <div class="form-row">
+              <label>
+                Correo electrónico
+                <input type="email" name="email" placeholder="tu@email.com" required>
+              </label>
+              <label>
+                Servicio
+                <select name="servicio" required>
+                  <option value="" disabled selected>Selecciona un servicio</option>
+                  <option>Banners</option>
+                  <option>Afiches</option>
+                  <option>Bordados</option>
+                  <option>Estampados</option>
+                  <option>Letreros luminosos</option>
+                  <option>Stickers</option>
+                  <option>Otro</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              Mensaje
+              <textarea name="mensaje" rows="5" placeholder="Cuéntanos sobre tu proyecto..." required></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-gold">Enviar consulta</button>
+            <p class="form-note">Este botón prepara tu mensaje para enviarlo por WhatsApp.</p>
+          </form>
+        </div>
+
+        <aside class="contact-info">
+          <div class="info-card">
+            <span class="info-icon">⌕</span>
+            <div>
+              <small>WHATSAPP</small>
+              <a href="https://wa.me/51949866685" target="_blank" rel="noopener">949 866 685</a>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <span class="info-icon">@</span>
+            <div>
+              <small>EMAIL</small>
+              <a href="mailto:pinturaselangel@hotmail.com">pinturaselangel@hotmail.com</a>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <span class="info-icon">◷</span>
+            <div>
+              <small>HORARIO</small>
+              <p>09:00 – 21:00</p>
+              <p>Lunes a sábado</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <span class="info-icon">⌖</span>
+            <div>
+              <small>UBICACIÓN</small>
+              <p>Jr. Colonos Fundadores Nro. 228</p>
+              <p>Urb. Satipo</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <img src="img/Logo.png" alt="EL ÁNGEL">
+        <p>Publicidad sin límites.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>MENÚ</h4>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>SERVICIOS</h4>
+        <a href="#servicios">Banners</a>
+        <a href="#servicios">Afiches</a>
+        <a href="#servicios">Bordados</a>
+        <a href="#servicios">Estampados</a>
+      </div>
+
+      <div class="footer-links">
+        <h4>CONTACTO</h4>
+        <a href="https://wa.me/51949866685" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="mailto:pinturaselangel@hotmail.com">Email</a>
+        <span>Satipo, Junín</span>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+  <p>© <span id="year"></span> EL ÁNGEL. Todos los derechos reservados.</p>
+
+  <a
+    href="https://wa.me/51949866685"
+    aria-label="WhatsApp"
+    target="_blank"
+    rel="noopener">
+    WhatsApp
+  </a>
+</div>
+
+
+  <a class="floating-whatsapp" href="https://wa.me/51949866685?text=Hola%20EL%20%C3%81NGEL%2C%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">wa</a>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
